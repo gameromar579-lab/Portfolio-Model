@@ -1,0 +1,177 @@
+* {
+    box-sizing: border-box;
+  }
+  body {
+    margin: 0;
+    background-image: url(image/ktaba.jpeg);
+    color: white;
+    font-family: Cinzel, serif;
+  }
+
+  h1, h2, h3, h4 {
+    margin: 0;
+  }
+
+  a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+  }
+
+  header, section {
+    max-width: 1700px;
+    margin: 2rem auto;
+    background-color: rgb(0,0,0,0.5);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.6);
+    padding: 2rem;
+    border-radius: 6px;
+  }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.1rem;
+  }
+
+  header nav a {
+    margin-left: 1.5rem;
+    font-size: 0.9rem;
+    opacity: 0.6;
+    transition: opacity 0.3s ease;
+  }
+
+  header nav a:hover {
+    opacity: 1;
+  }
+
+  .intro {
+    text-align: center;
+    margin-top: 4rem;
+  }
+
+  .intro small {
+    font-size: 0.75rem;
+    opacity: 0.7;
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+
+  .intro h1 {
+    font-weight: 900;
+    font-size: 3rem;
+    letter-spacing: 2px;
+  }
+
+  .portfolio {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 1.5rem;
+  }
+
+  .portfolio img {
+    width: 25%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 4px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.5);
+  }
+
+  .portfolio-text {
+    text-align: center;
+    margin-top: 1rem;
+    font-weight: 600;
+    font-size: 1.3rem;
+  }
+
+  .btn-view-project {
+    display: block;
+    background-color: #234f5e;
+    border: none;
+    padding: 0.5rem 1.5rem;
+    margin: 1rem auto 0;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+  }
+
+  .btn-view-project:hover {
+    background-color: #1b3c48;
+  }
+
+  .contact-section {
+    display: flex;
+    gap: 3rem;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+  }
+
+  .contact-info, .contact-form {
+    flex: 1 1 300px;
+  }
+
+  .contact-info p {
+    font-size: 0.9rem;
+    line-height: 1.4;
+  }
+
+  .contact-info strong {
+    display: block;
+    margin-top: 1rem;
+    margin-bottom: 0.3rem;
+  }
+
+  form {
+    background-color:rgb(0,0,0,0.5);
+    padding: 1.5rem;
+    border-radius: 6px;
+  }
+
+  form label {
+    display: block;
+    margin-bottom: 0.3rem;
+    font-weight: 600;
+    font-size: 0.9rem;
+  }
+
+  form input, form textarea {
+    width: 100%;
+    padding: 0.6rem;
+    margin-bottom: 1rem;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+  }
+
+  form textarea {
+    resize: vertical;
+    min-height: 80px;
+  }
+
+  form button {
+    background-color: #234f5e;
+    color: white;
+    border: none;
+    padding: 0.6rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  form button:hover {
+    background-color: #1b3c48;
+  }
+
+  footer {
+    text-align: center;
+    margin: 3rem 0;
+    font-weight: 600;
+    font-size: 1.1rem;
+    opacity: 0.75;
+  }
